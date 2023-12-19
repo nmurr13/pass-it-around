@@ -15,7 +15,7 @@ app.get('/:number_of_bottles', (req, res) => {
     res.send(`<h1>${number_of_bottles} Bottles of beer on the wall</h1>
     <a href = "/${number_of_bottles -1}">Take one down, pass it around<a/>`)}
     else {
-        res.send(`<a href="./"><1>Hair of the Dog</1></a>`);
+        res.send(`<a href="./"><h1>Hair of the Dog</h1></a>`);
     }
 })
 
